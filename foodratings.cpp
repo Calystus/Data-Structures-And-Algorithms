@@ -15,7 +15,7 @@ public:
             int r = ratings[i];
 
             foodToCuisine[f] = c;
-            foodToRating[f] = r;
+   e         foodToRating[f] = r;
             cuisineToSet[c].insert({-r, f}); // negative rating to order highest first
         }
     }
